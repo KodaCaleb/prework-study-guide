@@ -1,19 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: rgb(255, 255, 255);
 }
+
 
 header,
 footer {
     width: 100%;
     height: 120px;
-    background-color: blue;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.69);
+    color: rgb(0, 0, 0);
 }
 
 h1,
 h2 {
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -22,15 +25,18 @@ img {
     width: 50px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 30px;
 }
 
 ul {
     padding-left: 40px;
     font-size: 20px;
+    font-style: normal;
 }
 
 ul {
     list-style-type: circle;
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -42,5 +48,9 @@ p {
     width:80%;
     margin: 40px auto;
     border: 5px solid #20A7F4 ;
-    box-shadow:5px 10px #888888;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    opacity: 80%;
+
   }
